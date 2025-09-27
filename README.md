@@ -1,0 +1,1 @@
+Simple Go script to concurrently regex files in a directory. Uses concurrency and buffered reading to maximize throughput. Private benchmarks show similar performance to a simple python script when number of files is low, but shows several orders of magnitude faster for larger ones.
